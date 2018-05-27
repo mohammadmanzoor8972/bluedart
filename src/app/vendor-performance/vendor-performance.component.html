@@ -1,0 +1,354 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-xs-6 col-md-6 col-lg-6">
+        <form class="form-inline">
+        <div class="form-group seperate">
+            <select class="form-control form-control-sm" id="Region" required>
+              <option [value]="Region">Region</option>
+            </select>
+          </div>          
+          <div class="form-group seperate">
+            <select class="form-control form-control-sm" id="costCenter" required>
+              <option [value]="CostCentre">Cost Centre</option>
+            </select>
+          </div>
+          <div class="form-group seperate">
+              <select class="form-control form-control-sm" id="costCenter" required>
+                <option [value]="Samarth">Samarth Roadlines (507)</option>
+              </select>
+            </div>
+        </form>
+    </div>
+    <div class="col-xs-12 col-xs-6 col-md-6 col-lg-6">
+        <form class="form-inline">
+            <div class="form-group seperate">
+                <select class="form-control form-control-sm" id="RunType" required>
+                  <option [value]="RunType">Run Type</option>
+                </select>
+            </div>
+            <div class="form-group seperate">
+                <select class="form-control form-control-sm" id="fixedHire" required>
+                  <option [value]="fixedHire">Fixed Hire</option>
+                </select>
+            </div>
+            <div class="form-group seperate">
+                  <select class="form-control form-control-sm" id="costCenter" required>
+                    <option [value]="onward">Onward</option>
+                  </select>
+            </div>
+            <div class="form-group seperate">
+                <select class="form-control form-control-sm" id="date" required>
+                  <option [value]="onward">1-Apr - 30-Apr 2018</option>
+                </select>
+          </div>
+            </form>  
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 common">
+          <div class="topBlock incidentTab">
+              <p class="caption">Incidents</p>
+              <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>12</p>
+                      <div>Major Accidents</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>15</p>
+                      <div>Major Breakdowns</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>21</p>
+                      <div>Controllable Delays</div>
+                  </div> 
+              </div>
+          </div>
+          <div class="middleBlock" style="height: 162px;">
+            <div class="row" style="padding: 12px; font-size: 13px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div>Major Accidents</div>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+
+                </div>
+            </div>
+            <div class="row" style="padding: 12px; font-size: 13px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div>Major Breakdowns</div>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+
+                </div>
+            </div>
+            <div class="row" style="padding: 12px; font-size: 13px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div>Controllable Delay</div>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+
+                </div>
+            </div>
+          </div>
+          <div class="bottomBlock">
+            <div class="form-group seperate" style="padding: 0px; margin: 0px;">
+                <select style="border-radius: 0px; background: #ecc918" class="form-control form-control-sm" id="RunType" required>
+                  <option [value]="MajorAccidents">Worst Route by Major Accidents</option>
+                </select>
+            </div>
+            <div>
+                <table class="bottomBlockTable" style="width: 100%">
+                    <tr>
+                        <td>UARA (UMR -ASD)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>BBW (BOK - WRK)</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>PGK (PAT - KOL)</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>CBC (CHN - CBR)</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>KBS (KOL - SHL)</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 common">
+          <div class="topBlock onTimeTab">
+              <p class="caption">On Time Performance</p>
+              <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>45</p>
+                      <div>Delayed Runs</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>80%</p>
+                      <div>On Time Performance</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>70%</p>
+                      <div>On Time Availability</div>
+                  </div> 
+              </div>
+          </div>
+          <div class="middleBlock" style="height: 162px;">
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>Delay Hours</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>On Time Performance</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>On Time Availability</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+              </div>
+              <div class="bottomBlock">
+                <div class="form-group seperate" style="padding: 0px; margin: 0px;">
+                    <select style="border-radius: 0px; background: #18e4e4" class="form-control form-control-sm" id="RunType" required>
+                      <option [value]="MajorAccidents">Worst Route by OTA</option>
+                    </select>
+                </div>
+                <div>
+                    <table class="bottomBlockTable" style="width: 100%">
+                        <tr>
+                            <td>UARA (UMR -ASD)</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>BBW (BOK - WRK)</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>PGK (PAT - KOL)</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>CBC (CHN - CBR)</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>KBS (KOL - SHL)</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 common">
+          <div class="topBlock utilizationTab">
+              <p class="caption">Utilization</p>
+              <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>25</p>
+                      <div>Runs</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>211</p>
+                      <div>TKM</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>83%</p>
+                      <div>Utilization</div>
+                  </div> 
+              </div>
+          </div>
+          <div class="middleBlock" style="height: 162px;">
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>Runs</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>TKM</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>Utilization</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+              </div>
+              <div class="bottomBlock">
+                <div class="form-group seperate" style="padding: 0px; margin: 0px;">
+                    <select style="border-radius: 0px; background: #22f83f" class="form-control form-control-sm" id="RunType" required>
+                      <option [value]="MajorAccidents">Worst Route by Utilization</option>
+                    </select>
+                </div>
+                <div>
+                    <table class="bottomBlockTable" style="width: 100%">
+                        <tr>
+                            <td>UARA (UMR -ASD)</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>BBW (BOK - WRK)</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>PGK (PAT - KOL)</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>CBC (CHN - CBR)</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>KBS (KOL - SHL)</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 common">
+          <div class="topBlock costTab">
+              <p class="caption">Cost</p>
+              <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>21 <span style="font-size: 10px">lac</span></p>
+                      <div>Cost</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>5.5</p>
+                      <div>CPK</div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Major">
+                      <p>3.1</p>
+                      <div>CTKM</div>
+                  </div> 
+              </div>
+          </div>
+          <div class="middleBlock" style="height: 162px;">
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>Cost</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>CPK</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+                <div class="row" style="padding: 12px; font-size: 13px;">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div>CTKM</div>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+    
+                    </div>
+                </div>
+              </div>
+              <div class="bottomBlock">
+                <div class="form-group seperate" style="padding: 0px; margin: 0px;">
+                    <select style="border-radius: 0px; background: #2685f1" class="form-control form-control-sm" id="RunType" required>
+                      <option [value]="MajorAccidents">Worst Route by CTKM</option>
+                    </select>
+                </div>
+                <div>
+                    <table class="bottomBlockTable" style="width: 100%">
+                        <tr>
+                            <td>UARA (UMR -ASD)</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>BBW (BOK - WRK)</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>PGK (PAT - KOL)</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>CBC (CHN - CBR)</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>KBS (KOL - SHL)</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+      </div>
+  </div>
+</div>

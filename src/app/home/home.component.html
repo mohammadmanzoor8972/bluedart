@@ -1,0 +1,20 @@
+<!-- <app-header></app-header> -->
+<div class="container-fluid">
+  <div class="row">
+    <div (click)="changeDashboard('vendor')" [ngClass]="{'selected':isActive=='vendor'}" class="col-xs-12 col-sm-6 col-md-3 col-lg-3 topNav">
+      <div>Vendor Performance</div>
+    </div>
+    <div (click)="changeDashboard('routes')" [ngClass]="{'selected':isActive=='routes'}" class="col-xs-12 col-sm-6 col-md-3 col-lg-3 topNav">
+      <div>Routes</div>
+    </div>
+    <div (click)="changeDashboard('vehicles')" [ngClass]="{'selected':isActive=='vehicles'}" class="col-xs-12 col-sm-6 col-md-3 col-lg-3 topNav">
+      <div>Vehicles</div>
+    </div>
+    <div (click)="changeDashboard('whatifAnalysis')" [ngClass]="{'selected':isActive=='whatifAnalysis'}" class="col-xs-12 col-sm-6 col-md-3 col-lg-3 topNav">
+      <div>What-If Analysis</div>
+    </div>
+  </div>
+</div>
+
+
+

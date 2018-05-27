@@ -1,0 +1,29 @@
+  <div class="container-fluid">  	
+  	<div class="row" style="max-width:400px; margin: 17px auto;">
+  		<form action="">
+		  <div class="container">
+		  	<div class="imgcontainer" style="position: relative; height: 93px;">
+		    	<img style="width: 35%" src="assets/img_avatar2.png" alt="Avatar" class="avatar">
+		  	</div>
+		  	<div>
+		    <label for="uname"><b>Username</b></label>
+		    <input [(ngModel)]="username" type="text" placeholder="Enter Username" name="uname" required>
+		    {{Username}}
+		    <label for="psw"><b>Password</b></label>
+		    <input [(ngModel)]="password" type="password" placeholder="Enter Password" name="psw" required>
+
+		    <button type="submit" (click)="redirect()">Login</button>
+		    <label>
+		      <input type="checkbox" checked="checked" name="remember"> Remember me
+		    </label>
+		</div>	
+		  </div>
+
+		  <div class="container" style="background-color:#f1f1f1">
+		    <button type="button" class="cancelbtn">Cancel</button>
+		    <span class="psw">Forgot <a href="#">password?</a></span>
+		  </div>
+		</form>  		
+  	</div>
+  </div>
+  

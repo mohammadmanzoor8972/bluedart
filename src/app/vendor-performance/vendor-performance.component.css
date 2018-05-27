@@ -1,0 +1,48 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seperate{
+    margin-right:5px;
+    padding: 5px; 
+}
+.incidentTab{
+    background: #ecc918;
+    height: 140px;
+}
+.onTimeTab{
+    background: #18e4e4;
+    height: 140px;
+}
+.utilizationTab{
+    background: #22f83f;
+    height: 140px;
+}
+.costTab{
+    background: #2685f1;
+    height: 140px;
+}
+.Major{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.caption{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.Major p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.Major div{
+    font-size: 13px;
+}
+.common{
+    margin: 0px;
+    padding: 0px;
+}
+.bottomBlockTable td{
+    padding: 10px 0px 10px 8px;
+}
